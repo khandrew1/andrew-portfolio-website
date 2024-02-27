@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         portfolio: {
           lightgray: "#484747",
+          darkgray: "#1E1E1E",
           white: "#FFFFFF",
         },
       },
