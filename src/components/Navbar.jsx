@@ -6,9 +6,9 @@ const Navbar = () => {
       <div className="flex flex-col w-full items-center">
         <p className="p-3 -mb-8">andrew khadder</p>
         <div className="flex flex-col h-full w-full items-center justify-evenly">
-          <LinkButton name="about" href="" />
+          <LinkButton name="about" href="/about" />
           <LinkButton name="education" href="" />
-          <LinkButton name="project" href="" />
+          <LinkButton name="projects" href="" />
           <LinkButton name="resume" href="" />
         </div>
       </div>

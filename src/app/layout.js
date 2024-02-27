@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} h-screen bg-portfolio-darkgray`}>
         <div className="flex h-full pl-72 pt-32">
           <Navbar />
-          <div className="px-3">{children}</div>
+          <div className="px-3 h-full">{children}</div>
         </div>
       </body>
     </html>
