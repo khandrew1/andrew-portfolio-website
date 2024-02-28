@@ -3,7 +3,7 @@ import Bio from "@/components/Bio";
 
 const Page = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col border-4">
       <Header />
       <Bio />
     </div>
