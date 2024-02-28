@@ -1,4 +1,4 @@
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "@/components/projects/ProjectCard";
 import { PROJECTS } from "@/data/projects/Projects";
 
 const Page = () => {
@@ -9,6 +9,7 @@ const Page = () => {
           key={idx}
           name={obj.name}
           list={obj.list}
+          techStack={obj.techStack}
           icons={obj.icons}
         />
       ))}

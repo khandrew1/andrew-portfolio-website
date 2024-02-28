@@ -1,5 +1,5 @@
 import Education from "@/components/education/Education";
-import { EDUCATION } from "@/data/education/Education"
+import { EDUCATION } from "@/data/education/Education";
 
 const Page = () => {
   return (
