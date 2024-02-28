@@ -86,10 +86,10 @@ const Page = () => {
     {
       name: "aesthetic-ify",
       list: [
-        "A website that connects to user`s Spotify account to give them an audio visualization of their music",
+        "A website that connects to user's Spotify account to give them an audio visualization of their music",
         "Created an immersive audio visualizer component utilizing the power of the Canvas API",
-        "Utilized Web Audio API to convert audio output to a bar visualizer based on audio`s frequency bins",
-        "Integrated Spotify API to display real-time information about user`s currently playing track and album",
+        "Utilized Web Audio API to convert audio output to a bar visualizer based on audio's frequency bins",
+        "Integrated Spotify API to display real-time information about user's currently playing track and album",
       ],
       icons: [
         {
