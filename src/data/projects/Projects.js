@@ -1,4 +1,4 @@
-import { FaFigma, FaGithub } from "react-icons/fa";
+import { IoLogoGithub, IoLogoFigma } from "react-icons/io5";
 
 export const PROJECTS = [
   {
@@ -14,11 +14,11 @@ export const PROJECTS = [
     techStack: ["Next.js", "tailwindcss"],
     icons: [
       {
-        icon: <FaGithub className="text-4xl" />,
+        icon: <IoLogoGithub className="text-4xl" />,
         href: "https://github.com/khandrew1/andrew-portfolio-website",
       },
       {
-        icon: <FaFigma className="text-4xl" />,
+        icon: <IoLogoFigma className="text-4xl" />,
         href: "https://www.figma.com/file/M9z0dm6WvEMyGQP5oh4yt9/Andrew's-Portfolio-Website?type=design&node-id=0%3A1&mode=design&t=pkEoKL1XnyriJrMq-1",
       },
     ],
@@ -36,12 +36,12 @@ export const PROJECTS = [
     techStack: ["Next.js", "tailwindcss", "Firebase", "NextAuth"],
     icons: [
       {
-        icon: <FaGithub className="text-4xl" />,
+        icon: <IoLogoGithub className="text-4xl" />,
         href: "https://github.com/acm-ucr/hackathon-website",
       },
 
       {
-        icon: <FaFigma className="text-4xl" />,
+        icon: <IoLogoFigma className="text-4xl" />,
         href: "https://www.figma.com/file/YsmdMaZuYrkiaiWcB9XY1P/Hackathon-2024-Backend?type=design&node-id=0%3A1&mode=design&t=Yuhc1H7l5kce0mOV-1",
       },
     ],
@@ -59,12 +59,12 @@ export const PROJECTS = [
     techStack: ["Next.js", "tailwindcss", "Firebase", "NextAuth"],
     icons: [
       {
-        icon: <FaGithub className="text-4xl" />,
+        icon: <IoLogoGithub className="text-4xl" />,
         href: "https://github.com/acm-ucr/undecided",
       },
 
       {
-        icon: <FaFigma className="text-4xl" />,
+        icon: <IoLogoFigma className="text-4xl" />,
         href: "https://www.figma.com/file/sDzfa83PhH4f2WuMASwTBt/Apollo?type=design&node-id=0-1&mode=design&t=RTUDcI14MMmQ84Bk-0",
       },
     ],
@@ -80,7 +80,7 @@ export const PROJECTS = [
     techStack: ["Next.js", "tailwindcss", "OpenAI", "Spotify API"],
     icons: [
       {
-        icon: <FaGithub className="text-4xl" />,
+        icon: <IoLogoGithub className="text-4xl" />,
         href: "https://github.com/khandrew1/musicify",
       },
     ],
@@ -96,7 +96,7 @@ export const PROJECTS = [
     techStack: ["ReactJS", "Material UI", "Spotify API"],
     icons: [
       {
-        icon: <FaGithub className="text-4xl" />,
+        icon: <IoLogoGithub className="text-4xl" />,
         href: "https://github.com/khandrew1/aesthetic-ify",
       },
     ],
