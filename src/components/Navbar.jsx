@@ -9,7 +9,7 @@ const Navbar = () => {
           <LinkButton name="about" href="/about" />
           <LinkButton name="education" href="/education" />
           <LinkButton name="projects" href="/projects" />
-          <LinkButton name="resume" href="/about" />
+          <LinkButton name="resume" href="/Andrew_Khadder_Resume.pdf" />
         </div>
       </div>
     </div>
