@@ -1,13 +1,8 @@
-import Header from "@/components/Header";
-import Bio from "@/components/Bio";
+import About from "@/components/about/About";
+import { PROFILE_INFO } from "@/data/about/about";
 
 const Page = () => {
-  return (
-    <div className="flex flex-col border-4">
-      <Header />
-      <Bio />
-    </div>
-  );
+  return <About name={PROFILE_INFO.name} image={PROFILE_INFO.image} bio={PROFILE_INFO.bio} />;
 };
 
 export default Page;
