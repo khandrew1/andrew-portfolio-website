@@ -6,10 +6,9 @@ export const PROJECTS = [
     list: [
       "The website you're on right now!",
       "Created with Next.js and tailwind",
+      "Designed with Figma",
       "A website to show off my projects",
-      "A website to show off my projects",
-      "A website to show off my projects",
-      "A website to show off my projects",
+      "Scroll down for more!"
     ],
     techStack: ["Next.js", "tailwindcss"],
     icons: [
@@ -101,4 +100,21 @@ export const PROJECTS = [
       },
     ],
   },
+  {
+    name: "MedMe",
+    list: [
+      "A website that recommends over the counter medicine for different symptoms",
+      "Implemented a routing system using React Router allowing for seamless navigation between pages",
+      "Developed a reusable template component which significantly improved code efficiency",
+      "Integrated Material UI to accelerate the development process while maintaining consistent design",
+      "Won Best Innovation Award at Cutie Hack 2022",
+    ],
+    techStack: ["ReactJS", "Material UI"],
+    icons: [
+      {
+        icon: <FaGithub className="text-4xl" />,
+        href: "https://github.com/khandrew1/MedMe",
+      }
+    ]
+  }
 ];
