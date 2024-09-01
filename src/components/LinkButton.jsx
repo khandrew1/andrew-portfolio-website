@@ -4,7 +4,7 @@ const LinkButton = ({ name, href }) => {
   return (
     <Link
       href={href}
-      className="bg-portfolio-white flex h-[14%] w-[90%] rounded-lg items-center justify-center text-black"
+      className="bg-portfolio-white flex px-1.5 rounded-lg items-center justify-center text-black w-4/5"
     >
       {name}
     </Link>

@@ -13,12 +13,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} h-screen flex bg-portfolio-darkgray pl-72 pt-32`}
+        className={`${inter.className} h-screen w-screen flex flex-col lg:flex-row bg-portfolio-darkgray`}
       >
-        <div className="h-full">
-          <Navbar />
+        <div className="lg:flex lg:w-full lg:justify-center lg:pt-32">
+          <div className="w-full lg:w-fit lg:h-fit pb-3 lg:pr-3">
+            <Navbar />
+          </div>
+          <div>{children}</div>
         </div>
-        <div className="px-5 pr-32 w-full h-full">{children}</div>
       </body>
     </html>
   );

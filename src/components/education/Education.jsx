@@ -2,13 +2,15 @@ const Education = ({ university, expectedGrad, gpa, courses, clubs }) => {
   return (
     <div className="flex flex-col text-portfolio-white">
       <div className="h-2/5 w-full bg-portfolio-lightgray rounded-xl drop-shadow-lg">
-        <div className="pl-3 pt-3 m-0.5">
-          <p className="text-3xl">{university}</p>
-          <p className="text-sm italic">expected graduation: {expectedGrad}</p>
-          <p className="text-sm italic">GPA: {gpa}</p>
+        <div className="px-3 pt-3 m-0.5">
+          <p className="text-xl text-center md:text-3xl">{university}</p>
+          <div className="flex justify-between px-10 text-sm italic md:text-lg">
+            <p>expected graduation: {expectedGrad}</p>
+            <p>GPA: {gpa}</p>
+          </div>
         </div>
         <div className="flex justify-evenly m-0.5 pl-3">
-          <div className="w-1/2">
+          <div className="w-1/2 text-xs py-3 md:text-lg">
             <p className="flex justify-center items-center underline">
               Relevant Course Work
             </p>
@@ -18,7 +20,8 @@ const Education = ({ university, expectedGrad, gpa, courses, clubs }) => {
               ))}
             </ul>
           </div>
-          <div className="w-1/2">
+
+          <div className="w-1/2 text-xs py-3 md:text-lg">
             <p className="flex justify-center items-center underline">
               Associated Clubs
             </p>

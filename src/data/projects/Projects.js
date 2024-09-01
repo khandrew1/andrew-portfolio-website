@@ -8,7 +8,7 @@ export const PROJECTS = [
       "Created with Next.js and tailwind",
       "Designed with Figma",
       "A website to show off my projects",
-      "Scroll down for more!"
+      "Scroll down for more!",
     ],
     techStack: ["Next.js", "tailwindcss"],
     icons: [
@@ -114,7 +114,7 @@ export const PROJECTS = [
       {
         icon: <FaGithub className="text-4xl" />,
         href: "https://github.com/khandrew1/MedMe",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];
