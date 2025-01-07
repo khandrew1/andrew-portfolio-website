@@ -11,7 +11,7 @@ const Navbar = () => {
           <LinkButton name="about" href="/about" />
           <LinkButton name="education" href="/education" />
           <LinkButton name="projects" href="/projects" />
-          <LinkButton name="resume" href="/Andrew_Khadder_Resume.pdf" />
+          <LinkButton name="resume" href="/Andrew_Khadder_resume.pdf" />
         </div>
       </div>
     </div>
