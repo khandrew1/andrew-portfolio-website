@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           <div className="w-full lg:w-fit lg:h-fit pb-3 lg:pr-3">
             <Navbar />
           </div>
-          <div>{children}</div>
+          <div className="lg:w-3/4 overflow-y-scroll">{children}</div>
         </div>
       </body>
     </html>

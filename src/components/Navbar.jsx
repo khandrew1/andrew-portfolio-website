@@ -7,8 +7,9 @@ const Navbar = () => {
         <p className="text-sm md:text-lg w-full px-4 pb-3 text-center">
           andrew khadder
         </p>
-        <div className="w-full flex lg:flex-col gap-3 items-center justify-between">
+        <div className="w-full flex lg:flex-col gap-3 items-center justify-between text-xs md:text-lg">
           <LinkButton name="about" href="/about" />
+          <LinkButton name="experience" href="/experience" />
           <LinkButton name="education" href="/education" />
           <LinkButton name="projects" href="/projects" />
           <LinkButton name="resume" href="/Andrew_Khadder_resume.pdf" />

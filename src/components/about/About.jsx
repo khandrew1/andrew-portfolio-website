@@ -7,7 +7,7 @@ const About = ({ name, image, bio }) => {
       <div className="h-2/5 w-full bg-portfolio-lightgray rounded-xl drop-shadow-lg flex flex-col p-5">
         <div className="flex justify-center items-center">
           <Image
-            className="rounded-full h-32 w-32 md:h-40 md:w-40"
+            className="rounded-full h-32 w-32 md:h-40 md:w-40 aspect-square object-cover"
             alt={name}
             height={160}
             width={160}

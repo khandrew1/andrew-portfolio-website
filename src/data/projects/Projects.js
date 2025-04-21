@@ -23,10 +23,27 @@ export const PROJECTS = [
     ],
   },
   {
-    name: "Hackathon Website",
+    name: "mood-ify",
+    list: [
+      "Developed a backend app that analyzes Spotify playlists and generates custom AI art based on its mood",
+      "Built and trained custom machine learning classification model using track metadata and genre embedding",
+      "Engineered a modular ML pipeline for preprocessing, feature extraction, training, and evaluation",
+      "Integrated Spotify Web API for authentication and to dynamically fetch playlist and track data",
+    ],
+    techStack: ["Python", "FastAPI", "Dall E", "ChatGPT"],
+    icons: [
+      {
+        icon: <FaGithub className="text-4xl" />,
+        href: "https://github.com/khandrew1/mood-ify",
+      },
+    ],
+  },
+  {
+    name: "Aurora",
     list: [
       "A website that helps streamline hackathon management by providing a dashboard for users and admins",
       "Currently in use by 5 hackathon organizations on campus to host and maintain their events",
+      "Implemented virtualized infinite scrolling on all dashboard tables reducing server load by 30%",
       "Generated an XML Sitemap in order to greatly increase Search Engine Optimization results",
       "Integrated Github Actions CI/CD workflow in order to sync all template changes to all generated repositories",
       "Improved User Experience and ease of access through adding keyboard shortcuts to multiple components",
@@ -36,35 +53,12 @@ export const PROJECTS = [
     icons: [
       {
         icon: <FaGithub className="text-4xl" />,
-        href: "https://github.com/acm-ucr/hackathon-website",
+        href: "https://github.com/acm-ucr/aurora",
       },
 
       {
         icon: <FaFigma className="text-4xl" />,
         href: "https://www.figma.com/file/YsmdMaZuYrkiaiWcB9XY1P/Hackathon-2024-Backend?type=design&node-id=0%3A1&mode=design&t=Yuhc1H7l5kce0mOV-1",
-      },
-    ],
-  },
-  {
-    name: "bitByBIT",
-    list: [
-      "A website aimed to challenge and empower beginner coders and help hone their skills",
-      "Designed and implemented dynamic profile page, offering users insights on their progress",
-      "Implemented a Code Editor component in order to have a clean, friendly, and easy environment to write code",
-      "Built out parts of JSX component library to better encapsulate code and drastically reduce boilerplate",
-      "Implemented API Routes to streamline communication between front end and back end systems",
-      "Optimized components by abstracting out API calls to a dedicated backend, reducing client overhead",
-    ],
-    techStack: ["Next.js", "tailwindcss", "Firebase", "NextAuth"],
-    icons: [
-      {
-        icon: <FaGithub className="text-4xl" />,
-        href: "https://github.com/acm-ucr/undecided",
-      },
-
-      {
-        icon: <FaFigma className="text-4xl" />,
-        href: "https://www.figma.com/file/sDzfa83PhH4f2WuMASwTBt/Apollo?type=design&node-id=0-1&mode=design&t=RTUDcI14MMmQ84Bk-0",
       },
     ],
   },
